@@ -1,0 +1,1 @@
+export { withIoc } from './withIoc';
