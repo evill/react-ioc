@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import {IoC} from 'react-ioc';
-import {IoCContainer} from 'ioc';
+import createIoc from './app/create-ioc';
 
-let container = new IoCContainer();
+let container = createIoc();
 
 ReactDOM.render(
     (
