@@ -1,6 +1,6 @@
 {
   "name": "react-ioc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provide integration of React with IoC container for inject dependencies to components",
   "main": "src/index.js",
   "scripts": {
