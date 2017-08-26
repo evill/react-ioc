@@ -3,13 +3,15 @@ import { IocPropTypes } from '../utils'
 
 export class IoCInjector extends Component {
 
-    constructor(props) {
-        super(props);
+    constructor(props, context) {
+        super(props, context);
 
-        this.ioc = this.props.ioc || this.context.ioc;
+        const { WrappedComponent } = this.constructor;
+
+        this.ioc = props.ioc || context.ioc;
         this.dependencies = {};
-        
-        if (!(this.constructor.WrappedComponent instanceof Component)) {
+
+        if (!WrappedComponent) {
             throw new TypeError('WrappedComponent is not defined!');
         }
 
@@ -43,3 +45,4 @@ Object.defineProperty(IoCInjector, 'displayName', {
         return this.WrappedComponent.displayName || this.WrappedComponent.name || 'IoCInjector';
     }
 });
+

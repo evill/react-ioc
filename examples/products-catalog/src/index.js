@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './app/components/app/App';
 import registerServiceWorker from './registerServiceWorker';
 import {IoC} from 'react-ioc';
 import createIoc from './app/create-ioc';
@@ -18,3 +18,4 @@ ReactDOM.render(
 );
 
 registerServiceWorker();
+

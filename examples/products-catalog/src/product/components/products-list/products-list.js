@@ -32,9 +32,10 @@ export class ProductsList extends Component {
         return (
             <div>
                 {
-                    products.map((product, index) => <ProductPreview key={index} product={product}/>)
+                    products.map((product) => <ProductPreview key={product.id} product={product}/>)
                 }
             </div>
         );
     }
 }
+

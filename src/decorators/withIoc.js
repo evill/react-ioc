@@ -1,6 +1,5 @@
 import React from 'react';
 import { IoCInjector } from '../components/ioc-injector';
-import { IocPropTypes } from '../utils';
 
 /**
  * Wraps origin component to high order component which will use IoC container from context to inject dependencies to
@@ -15,3 +14,4 @@ export let withIoc = (WrappedComponent) => {
 
     return Injector;
 };
+

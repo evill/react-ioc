@@ -6,12 +6,13 @@ export class ProductPreview extends Component {
         
         if (product) {
             return (
-                <articale>
-                    <div>{product.title}</div>
-                </articale>
+                <article>
+                    <div>{product.name}</div>
+                </article>
             );
         }
         
         return null;
     }
 }
+

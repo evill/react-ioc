@@ -1,6 +1,6 @@
-import React, { Component, Children } from 'react'
-import PropTypes from 'prop-types'
-import { IocPropTypes } from '../utils'
+import React, { Component, Children } from 'react';
+import PropTypes from 'prop-types';
+import { IocPropTypes } from '../utils';
 
 /**
  * React component which share instance of IoC Container with React components using context
@@ -30,3 +30,4 @@ IoC.propTypes = {
 IoC.childContextTypes = {
     ioc: IocPropTypes.iocResolverType.isRequired
 };
+

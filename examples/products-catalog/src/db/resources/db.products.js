@@ -1,0 +1,107 @@
+export default [
+    {
+        "id": 1,
+        "categoryId": 0,
+        "name": "Nike Cortez",
+        "image": "https://www.sneakerfreaker.com/wp-content/uploads/2016/06/NIKE-CLASSIC-CORTEZ-VARSITY-RED-ROYAL-THUMB.jpg",
+        "price": "$125",
+        "description": "The Nike Cortez was the first track shoe created by Nike, in 1972, and is therefore thought to be a significant aspect to the success of Nike, Inc.",
+        "size": 9.5,
+        "available": true,
+        "rating": 5,
+        "soldCount": 25,
+        "gender": 2 /*0-women, 1-man, 2-unisex*/
+    },
+    {
+        "id": 2,
+        "categoryId": 1,
+        "name": "Kindle Paperwhite",
+        "price": 119.99,
+        "img": "https://images-na.ssl-images-amazon.com/images/G/01/kindle/dp/2015/famnav/KM-FS-US-V2-125x85._CB310923734_.png",
+        "description": "The Nike Cortez was the first track shoe created by Nike, in 1972, and is therefore thought to be a significant aspect to the success of Nike, Inc.",
+        "size": 9.5,
+        "available": true,
+        "rating": 5,
+        "soldCount": 25,
+        "gender": 2
+    },
+    {
+        "id": 3,
+        "categoryId": 1,
+        "name": "Kindle",
+        "price": 79.99,
+        "img": "https://images-na.ssl-images-amazon.com/images/G/01/kindle/dp/2016/10566252/fs-ke-v2._CB284889061_.png",
+        "description": "The Nike Cortez was the first track shoe created by Nike, in 1972, and is therefore thought to be a significant aspect to the success of Nike, Inc.",
+        "size": 9.5,
+        "available": true,
+        "rating": 5,
+        "soldCount": 25,
+        "gender": 2
+    },
+    {
+        "id": 4,
+        "categoryId": 1,
+        "name": "Kindle Oasis",
+        "price": 289.99,
+        "img": "https://images-na.ssl-images-amazon.com/images/G/01/kindle/dp/2016/10566252/kw-compchart._CB276425392_.png",
+        "description": "The Nike Cortez was the first track shoe created by Nike, in 1972, and is therefore thought to be a significant aspect to the success of Nike, Inc.",
+        "size": 9.5,
+        "available": true,
+        "rating": 5,
+        "soldCount": 25,
+        "gender": 2
+    },
+    {
+        "id": 5,
+        "categoryId": 1,
+        "name": "Kindle Voyage",
+        "price": 199.99,
+        "img": "https://images-na.ssl-images-amazon.com/images/G/01/kindle/dp/2014/famnav/fs-ki._CB325838716_.png",
+        "description": "The Nike Cortez was the first track shoe created by Nike, in 1972, and is therefore thought to be a significant aspect to the success of Nike, Inc.",
+        "size": 9.5,
+        "available": true,
+        "rating": 5,
+        "soldCount": 25,
+        "gender": 2
+    },
+    {
+        "id": 6,
+        "categoryId": 2,
+        "name": "Fire Tablet",
+        "price": 49.99,
+        "img": "https://images-na.ssl-images-amazon.com/images/G/01/kindle/dp/2015/848470/famnav/fs-f._CB310909172_.png",
+        "description": "The Nike Cortez was the first track shoe created by Nike, in 1972, and is therefore thought to be a significant aspect to the success of Nike, Inc.",
+        "size": 9.5,
+        "available": true,
+        "rating": 5,
+        "soldCount": 25,
+        "gender": 2
+    },
+    {
+        "id": 7,
+        "categoryId": 2,
+        "name": "Fire HD 6",
+        "price": 69.99,
+        "img": "https://images-na.ssl-images-amazon.com/images/G/01/kindle/dp/2015/848470/famnav/fs-fireHD6._CB273898151_.png",
+        "description": "The Nike Cortez was the first track shoe created by Nike, in 1972, and is therefore thought to be a significant aspect to the success of Nike, Inc.",
+        "size": 9.5,
+        "available": true,
+        "rating": 5,
+        "soldCount": 25,
+        "gender": 2
+    },
+    {
+        "id": 8,
+        "categoryId": 2,
+        "name": "Fire HD 8",
+        "price": 89.99,
+        "img": "https://images-na.ssl-images-amazon.com/images/G/01/kindle/dp/2016/10566252/Fire/FireHD8/fs-Giza_125x85._CB280798568_.png",
+        "description": "The Nike Cortez was the first track shoe created by Nike, in 1972, and is therefore thought to be a significant aspect to the success of Nike, Inc.",
+        "size": 9.5,
+        "available": true,
+        "rating": 5,
+        "soldCount": 25,
+        "gender": 2
+    }
+];
+
